@@ -1,0 +1,5 @@
+SQL-запрос:
+
+SELECT dname FROM domains WHERE user_id=(SELECT user_id FROM users WHERE name='Иван Иванов');
+
+Запрос формировал и тестировал на услуге u1591605.
